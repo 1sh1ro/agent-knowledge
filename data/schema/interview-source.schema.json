@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/1sh1ro/agent-knowledge/data/schema/interview-source.schema.json",
+  "title": "Agent interview and knowledge source",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "source_platform",
+    "source_url",
+    "source_type",
+    "discovered_at",
+    "crawl_method",
+    "license_status",
+    "content_status",
+    "quality_score",
+    "topics",
+    "summary",
+    "suggested_destination"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable source id."
+    },
+    "title": {
+      "type": "string"
+    },
+    "source_platform": {
+      "type": "string"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "source_type": {
+      "type": "string",
+      "enum": [
+        "interview",
+        "learning_route",
+        "job_posting",
+        "engineering_case",
+        "official_doc",
+        "open_source_project"
+      ]
+    },
+    "discovered_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "published_at": {
+      "type": ["string", "null"]
+    },
+    "crawl_method": {
+      "type": "string",
+      "enum": [
+        "public_search_result",
+        "public_page_metadata",
+        "public_page_summary",
+        "manual_seed"
+      ]
+    },
+    "license_status": {
+      "type": "string",
+      "enum": [
+        "metadata_summary_only",
+        "public_documentation",
+        "open_source_license",
+        "needs_review"
+      ]
+    },
+    "content_status": {
+      "type": "string",
+      "enum": [
+        "candidate",
+        "needs_review",
+        "approved_metadata_only",
+        "approved_summary"
+      ]
+    },
+    "quality_score": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "company": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "position": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "summary": {
+      "type": "string"
+    },
+    "suggested_destination": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

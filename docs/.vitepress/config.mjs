@@ -43,9 +43,17 @@ export default defineConfig({
           text: '知识库',
           items: [
             { text: 'Overview', link: '/knowledge/' },
+            { text: 'Agent 知识地图', link: '/knowledge/agent-knowledge-map' },
             { text: 'LLM 基础', link: '/knowledge/llm-basics/' },
+            { text: '后训练', link: '/knowledge/post-training/' },
+            { text: 'SFT', link: '/knowledge/post-training/sft' },
+            { text: '偏好优化', link: '/knowledge/post-training/preference-optimization' },
             { text: 'Agent 架构', link: '/knowledge/agent-architecture/' },
-            { text: '工程实践', link: '/knowledge/engineering/' }
+            { text: 'Agent Harness', link: '/knowledge/agent-architecture/harness' },
+            { text: '工程实践', link: '/knowledge/engineering/' },
+            { text: 'Context Engineering', link: '/knowledge/engineering/context-engineering' },
+            { text: 'AgentOps', link: '/knowledge/engineering/agentops' },
+            { text: 'Agent 安全', link: '/knowledge/safety/' }
           ]
         }
       ],
