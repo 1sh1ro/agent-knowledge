@@ -126,6 +126,6 @@ class LRUCache:
 
 ## 相关题目
 
-- [LRU Cache 实现](../qna/algorithms/cache.md)
+- [LRU Cache 实现](../qna/algorithms/lru-cache.md)
 - [RAG 系统设计](../knowledge/engineering/rag.md)
 - [ReAct 推理模式](../knowledge/agent-architecture/react.md)

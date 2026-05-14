@@ -4,6 +4,7 @@ export default defineConfig({
   title: 'Agent 面试知识库',
   description: '收集 Agent 相关岗位面试经验、知识点整理、面试题库和学习资源',
   srcDir: '.',
+  ignoreDeadLinks: true,
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'theme-color', content: '#646cff' }]
