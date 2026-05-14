@@ -1,0 +1,25 @@
+name: Sync Issues to Docs
+
+on:
+  issues:
+    types: [opened, edited, closed]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sync Issues to Docs
+        run: |
+          node scripts/sync-issues.js
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          title: "sync: Update docs from issues"
+          branch: sync/issues
+          base: main
+          delete-branch: true

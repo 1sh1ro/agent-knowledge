@@ -1,0 +1,76 @@
+name: 面试题提交
+description: 提交新的面试题目
+title: "[题目] 题目名称"
+labels: ["面试题"]
+assignees: []
+
+body:
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: 题目类型
+      options:
+        - 算法编程
+        - 系统设计
+        - 项目深挖
+        - 行为面
+    validations:
+      required: true
+
+  - type: input
+    id: difficulty
+    attributes:
+      label: 难度
+      description: 难度等级
+      options:
+        - ⭐ 基础
+        - ⭐⭐ 中等
+        - ⭐⭐⭐ 困难
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: 题目描述
+      description: 请详细描述面试问题
+      placeholder: |
+        面试官问的问题是：
+        ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: answer
+    attributes:
+      label: 参考答案
+      description: 如果有参考答案，请提供
+      placeholder: |
+        参考答案：
+        ...
+
+  - type: textarea
+    id: tips
+    attributes:
+      label: 答题技巧
+      description: 回答这个问题的技巧或注意事项
+      placeholder: |
+        - 注意事项
+        - 常见陷阱
+        - 回答思路
+
+  - type: input
+    id: company
+    attributes:
+      label: 来源公司（可选）
+      description: 哪家公司的面试题目
+      placeholder: "字节跳动"
+
+  - type: checkboxes
+    id: permission
+    attributes:
+      label: 权限确认
+      options:
+        - label: 我同意将以上内容公开分享
+          required: true

@@ -1,0 +1,122 @@
+[
+  {
+    "title": "AI Agent 高频面试 Top 20|牛客网面经真题+详细答案",
+    "source": "AI Agent面经共享",
+    "datetime": "2026-05-12",
+    "summary": "数据来源:牛客网近 10 页 AI/Agent 面经帖(覆盖字节、阿里、美团、快手、京东、小红书、蚂蚁等公司)"
+  },
+  {
+    "title": "初创公司Agent面经|17道真实面试题全记录",
+    "source": "AI Agent面经共享",
+    "datetime": "2026-05-11",
+    "summary": "这篇面经来自一家初创公司的Agent开发岗面试,涵盖了项目拷打、Java后端基础、Agent架构设计、RAG实战等多个方向,共17道题"
+  },
+  {
+    "title": "大模型面经之Agent介绍",
+    "source": "walle优选笔记",
+    "datetime": "2024-05-14",
+    "summary": "面试经验专栏本篇总结了大模型面经中关于Agent部分相关的知识和内容"
+  },
+  {
+    "title": "分析150+篇Agent面经后,我发现了这个趋势",
+    "source": "zl的双轨成长",
+    "datetime": "2026-05-08",
+    "summary": "扒了一轮最新的AI Agent岗面经,发现一个很明显的信号——面试官不问'什么是Agent'了,直接问'你用哪个Agent'"
+  },
+  {
+    "title": "阿里大模型Agent算法岗面经复盘,全是坑!!!",
+    "source": "AIGC小白入门记",
+    "datetime": "2026-03-11",
+    "summary": "AI/CV重磅干货,第一时间送达 2026年校招群成立阿里大模型Agent算法岗面经复盘"
+  },
+  {
+    "title": "科大讯飞Agent开发面经:三轮技术面,全是工程实战,不考算法!",
+    "source": "程序员乔峰",
+    "datetime": "2026-03-18",
+    "summary": "#Agent开发实战 #科大讯飞Agent开发面经 #三轮技术面试实战 #工程实战面试经验"
+  },
+  {
+    "title": "Agent 方向面经整理(思路引导 + 推荐回答)",
+    "source": "TrustZone",
+    "datetime": "2026-05-05",
+    "summary": "美团 && 百度Agent 方向面经整理(思路引导 + 推荐回答)"
+  },
+  {
+    "title": "前端面经:Agent 架构解析",
+    "source": "程序员英语buff",
+    "datetime": "2026-03-12",
+    "summary": "An AI Agent is an autonomous system that uses LLMs as a 'reasoning engine' to navigate complex tasks."
+  },
+  {
+    "title": "京东agent开发一面面经",
+    "source": "程序员乔峰",
+    "datetime": "2026-05-04",
+    "summary": "1. 实习经历提问 2. 如果是一个金融系统,不能让agent自己去真实操作(钱放出去就是大问题),你会选择怎么做? 3. JAVA常用数据结构"
+  },
+  {
+    "title": "秋招大模型agent算法面经整理",
+    "source": "AgentAlpha",
+    "datetime": "2026-05-09",
+    "summary": "秋招实习算法面经,涵盖了llm的原理、结构、训练任务及应用,还涉及大模型训练、微调、推理加速等方面"
+  },
+  {
+    "title": "大模型面试题,盘古大模型学习笔记",
+    "source": "疯狂编程笔记",
+    "datetime": "2026-05-08",
+    "summary": "##大模型面试 #AI面试 #大模型八股文 #LLM面试 #人工智能面试 #算法面试"
+  },
+  {
+    "title": "AI大模型面试必背20题(基础概念篇)",
+    "source": "编程圆子",
+    "datetime": "2026-05-01",
+    "summary": "AI大模型面试基础核心知识点整理,适合求职、学习、梳理知识使用"
+  },
+  {
+    "title": "Shopee大模型面试岗,我慌了!!",
+    "source": "AIGC小白入门记",
+    "datetime": "2026-05-09",
+    "summary": "上周面Shopee的Agent开发实习二面,面完我整个人是懵的"
+  },
+  {
+    "title": "盘点一下4月的大模型面试真题",
+    "source": "波哥聊大模型",
+    "datetime": "2026-05-08",
+    "summary": "今天整理了一下4月的大模型面试真题,今天简单做个分析"
+  },
+  {
+    "title": "字节跳动大模型面试251题,刷完你就牛了",
+    "source": "AGI大姐大",
+    "datetime": "2026-03-10",
+    "summary": "251道大模型面试题(附答案)年后准备面试找工作的小伙伴一定要做好准备"
+  },
+  {
+    "title": "哔哩哔哩大模型面试岗,我悟了!!!",
+    "source": "AIGC小白入门记",
+    "datetime": "2026-05-03",
+    "summary": "大模型面试已经告别'八股文时代'不会有人再问你'什么是自注意力机制'这种问题"
+  },
+  {
+    "title": "大模型面试必备:模型训练与微调 15 问全解析",
+    "source": "跟Nancy学AI",
+    "datetime": "2026-04-01",
+    "summary": "导读:2026 年,大模型已从'尝鲜'走向'落地'"
+  },
+  {
+    "title": "大模型面试八股",
+    "source": "陈晨6989",
+    "datetime": "2026-04-01",
+    "summary": "AI大模型面试题合集大模型面试八股含答案,包含基础面、推理面、强化学习、RAG、Agent、Langchain实际应用"
+  },
+  {
+    "title": "同花顺LLM算法面经",
+    "source": "算法offer之旅",
+    "datetime": "2026-03-26",
+    "summary": "如果需要项目提升或面试辅导 欢迎添加微信"
+  },
+  {
+    "title": "百度LLM算法二面面经",
+    "source": "算法offer之旅",
+    "datetime": "2026-03-13",
+    "summary": "有没有使用特定的检索算法?答案生成环节做了哪些优化?你是如何在答案生成环节控制生成质量的?"
+  }
+]

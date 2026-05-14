@@ -1,0 +1,9 @@
+{
+  "name": "@octokit/rest",
+  "version": "^0.1.0",
+  "type": "module",
+  "description": "Sync GitHub Issues to docs",
+  "scripts": {
+    "sync": "node sync-issues.js"
+  }
+}

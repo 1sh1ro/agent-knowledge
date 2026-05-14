@@ -1,0 +1,76 @@
+name: 知识库补充
+description: 补充或修正知识库内容
+title: "[知识] 知识点名称"
+labels: ["知识库"]
+assignees: []
+
+body:
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: 分类
+      options:
+        - LLM 基础
+        - Agent 架构
+        - 工程实践
+        - 学习资源
+        - 其他
+    validations:
+      required: true
+
+  - type: input
+    id: topic
+    attributes:
+      label: 知识点主题
+      description: 要补充或修正的知识点
+      placeholder: "Transformer 架构详解"
+    validations:
+      required: true
+
+  - type: textarea
+    id: content
+    attributes:
+      label: 内容
+      description: 补充的知识内容（支持 Markdown）
+      placeholder: |
+        ## 概述
+        ...
+
+        ## 核心概念
+        ...
+
+        ## 参考资料
+        ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reference
+    attributes:
+      label: 参考资料
+      description: 相关的参考资料链接
+      placeholder: |
+        - 论文链接
+        - 博客文章
+        - 官方文档
+
+  - type: dropdown
+    id: action
+    attributes:
+      label: 操作类型
+      options:
+        - 新增内容
+        - 补充内容
+        - 修正错误
+        - 删除内容
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: permission
+    attributes:
+      label: 权限确认
+      options:
+        - label: 我确认内容不涉及侵权问题
+          required: true

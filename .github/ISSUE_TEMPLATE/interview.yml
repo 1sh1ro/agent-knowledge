@@ -1,0 +1,128 @@
+name: 面经分享
+description: 分享你的 Agent 岗位面试经验
+title: "[面经] 公司名称 - 岗位名称"
+labels: ["面经"]
+assignees: []
+
+body:
+
+  - type: dropdown
+    id: company
+    attributes:
+      label: 公司名称
+      description: 你面试的公司
+      options:
+        - OpenAI
+        - 字节跳动
+        - 阿里巴巴
+        - 腾讯
+        - 百度
+        - 美团
+        - 滴滴
+        - 小红书
+        - AI 创业公司
+        - 自动驾驶公司
+        - 出海/外资公司
+        - 其他
+    validations:
+      required: true
+
+  - type: dropdown
+    id: position
+    attributes:
+      label: 岗位名称
+      description: 你面试的岗位
+      options:
+        - 算法工程师
+        - 应用工程师
+        - 大模型工程师
+        - Agent 开发工程师
+        - 全栈工程师
+        - 研究员
+        - 产品经理
+        - 其他
+    validations:
+      required: true
+
+  - type: input
+    id: date
+    attributes:
+      label: 面试时间
+      description: 大致的面试时间，如 2024-01
+      placeholder: "2024-01"
+
+  - type: dropdown
+    id: result
+    attributes:
+      label: 面试结果
+      options:
+        - 待面试
+        - 已通过
+        - 未通过
+        - 未知
+    validations:
+      required: true
+
+  - type: textarea
+    id: process
+    attributes:
+      label: 面试流程
+      description: 请详细描述各轮面试的问题
+      placeholder: |
+        ### 一面（技术面）
+        1. 自我介绍
+        2. 项目介绍
+        3. ...
+
+        ### 二面（技术面）
+        ...
+
+        ### 三面（HR/终面）
+        ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: tips
+    attributes:
+      label: 面试建议
+      description: 给后面面试的同学一些建议
+      placeholder: |
+        - 建议提前准备的项目亮点
+        - 常见问题
+        - 其他注意事项
+
+  - type: textarea
+    id: questions
+    attributes:
+      label: 被问到的技术问题
+      description: 记录面试中被问到的技术问题（可选）
+      placeholder: |
+        - Transformer 的 attention 机制
+        - 如何优化 RAG 系统
+        - ...
+
+  - type: checkboxes
+    id: permission
+    attributes:
+      label: 权限确认
+      options:
+        - label: 我同意将以上内容公开分享，供社区学习参考
+          required: true
+        - label: 我确认内容不涉及公司机密和个人隐私
+          required: true
+
+  - type: input
+    id: contact
+    attributes:
+      label: 联系方式（可选）
+      description: 如需联系我们填写补充内容
+      placeholder: "GitHub / 邮箱"
+
+  - type: checkboxes
+    id: anonymous
+    attributes:
+      label: 隐私设置
+      options:
+        - label: 我希望匿名分享（贡献者列表中不显示）
+          required: false
